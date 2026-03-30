@@ -1,156 +1,144 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <title>คณะและสาขา ม.ศิลปากร สนามจันทร์ 2569</title>
-  <style>
-    body {
-      font-family: "Prompt", sans-serif;
-      margin: 0;
-      background: #f4f6f9;
-      color: #333;
-    }
-    header {
-      background: #05448b;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      margin: 10px auto;
-      max-width: 900px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    h2 {
-      color: #6a1b9a;
-    }
-    p.description {
-      font-size: 14px;
-      margin-bottom: 10px;
-      color: #555;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 6px;
-    }
-    footer {
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UniGuide - Faculty</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #0623a3;
+    padding-top: 70px;
+}
+
+
+.glass-nav {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+.navbar .nav-link:hover {
+    color: #ffd700 !important;
+}
+
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+</style>
 </head>
+
 <body>
 
-<header>
- <nav class="navbar navbar-expand-lg glass-nav fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">🔮 UniGuide</a>
-        <div class="collapse navbar-collapse" id="navMenu">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="index.html">หน้าแรก</a>
-                <a class="nav-link" href="faculty.html">คณะ</a>
-                <a class="nav-link" href="about.html">เกี่ยวกับ</a>
-                <a class="nav-link" href="contact.html">ติดต่อ</a>
-            </div>
-        </div>
+
+<nav class="navbar navbar-expand-lg glass-nav fixed-top">
+  <div class="container d-flex align-items-center">
+    <a class="navbar-brand" href="#">🔮 UniGuide</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" href="faculty.html">คณะ</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">เกี่ยวกับ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อ</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
-</header>
 
-<section>
-  <h2>📚 คณะอักษรศาสตร์</h2>
-  <p class="description">
-    เน้นด้านภาษา มนุษยศาสตร์ และสังคมศาสตร์ พัฒนาทักษะการสื่อสาร การวิเคราะห์ และความเข้าใจวัฒนธรรม เหมาะสำหรับสายงานราชการ นักแปล นักเขียน และงานระหว่างประเทศ
-  </p>
-  <ul>
-    <li>ภาษาไทย – ศึกษาภาษา วรรณคดี และการใช้ภาษาอย่างลึกซึ้ง</li>
-    <li>ภาษาอังกฤษ / ฝรั่งเศส / เยอรมัน – เน้นทักษะการสื่อสารและแปลภาษา</li>
-    <li>ประวัติศาสตร์ – เรียนรู้เหตุการณ์สำคัญของโลกและไทย</li>
-    <li>ปรัชญา – ฝึกการคิด วิเคราะห์ และตั้งคำถามเชิงลึก</li>
-    <li>ภูมิศาสตร์ – ศึกษาสิ่งแวดล้อมและพื้นที่เชิงภูมิศาสตร์</li>
-    <li>เอเชียศึกษา – เจาะลึกวัฒนธรรมและสังคมในเอเชีย</li>
-    <li>บรรณารักษศาสตร์ – การจัดการข้อมูลและสารสนเทศ</li>
-    <li>ศิลปการแสดง – การแสดงละคร เวที และศิลปะการสื่อสาร</li>
-  </ul>
-</section>
 
-<section>
-  <h2>👩‍🏫 คณะศึกษาศาสตร์</h2>
-  <p class="description">
-    ผลิตครูและบุคลากรทางการศึกษา รวมถึงสายจิตวิทยาและกีฬา เน้นการสอน การพัฒนามนุษย์ และการเรียนรู้ตลอดชีวิต
-  </p>
-  <ul>
-    <li>ครุศาสตร์ – ฝึกเป็นครูในวิชาต่าง ๆ เช่น ไทย อังกฤษ สังคม</li>
-    <li>การสอนภาษาจีน – เน้นการสอนและการใช้ภาษาจีน</li>
-    <li>เทคโนโลยีการศึกษา – ใช้สื่อและเทคโนโลยีในการเรียนการสอน</li>
-    <li>จิตวิทยา – ศึกษาพฤติกรรมมนุษย์และการให้คำปรึกษา</li>
-    <li>วิทยาศาสตร์การกีฬา – การออกกำลังกาย สุขภาพ และโค้ชกีฬา</li>
-  </ul>
-</section>
+<div class="container my-5">
+  <h1 class="text-center text-white mb-5">คณะในมหาวิทยาลัยศิลปากร วิทยาเขตสนามจันทร์</h1>
+  <div class="row g-4">
 
-<section>
-  <h2>🔬 คณะวิทยาศาสตร์</h2>
-  <p class="description">
-    เน้นการเรียนรู้เชิงวิทยาศาสตร์ การทดลอง และการวิจัย เหมาะสำหรับสายวิชาการ นักวิจัย และสายงานเทคโนโลยี
-  </p>
-  <ul>
-    <li>คณิตศาสตร์ / สถิติ – วิเคราะห์ข้อมูลและแก้ปัญหาเชิงตัวเลข</li>
-    <li>เคมี / ฟิสิกส์ / ชีววิทยา – วิทยาศาสตร์พื้นฐานและการทดลอง</li>
-    <li>จุลชีววิทยา – ศึกษาแบคทีเรียและจุลินทรีย์</li>
-    <li>วิทยาศาสตร์สิ่งแวดล้อม – ปัญหาสิ่งแวดล้อมและการจัดการ</li>
-    <li>วิทยาการคอมพิวเตอร์ – การเขียนโปรแกรมและระบบซอฟต์แวร์</li>
-    <li>เทคโนโลยีสารสนเทศ – ระบบ IT และเครือข่าย</li>
-  </ul>
-</section>
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">🎓 คณะศึกษาศาสตร์</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> ผลิตครูและบุคลากรทางการศึกษา</p>
+          <p class="card-text"><b>สาขา:</b> ภาษาไทย / ภาษาอังกฤษ / ปฐมวัย / ประถมศึกษา / เทคโนโลยีการศึกษา</p>
+        </div>
+      </div>
+    </div>
 
-<section>
-  <h2>⚙️ คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</h2>
-  <p class="description">
-    เน้นการออกแบบ พัฒนา และควบคุมระบบอุตสาหกรรม เทคโนโลยี และนวัตกรรม เหมาะกับสายวิศวกรและโรงงาน
-  </p>
-  <ul>
-    <li>วิศวกรรมเครื่องกล – ออกแบบเครื่องจักรและระบบกล</li>
-    <li>วิศวกรรมเคมี – กระบวนการผลิตในอุตสาหกรรมเคมี</li>
-    <li>วิศวกรรมอุตสาหการ – การจัดการระบบการผลิต</li>
-    <li>วิศวกรรมอิเล็กทรอนิกส์ – ระบบไฟฟ้าและอุปกรณ์อัจฉริยะ</li>
-    <li>วิศวกรรมโลจิสติกส์ – การขนส่งและซัพพลายเชน</li>
-    <li>เทคโนโลยีอาหาร – การผลิตและพัฒนาอาหาร</li>
-    <li>เทคโนโลยีชีวภาพ – การใช้สิ่งมีชีวิตในอุตสาหกรรม</li>
-  </ul>
-</section>
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">🔬 คณะวิทยาศาสตร์</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> ศึกษาวิทยาศาสตร์พื้นฐานและประยุกต์</p>
+          <p class="card-text"><b>สาขา:</b> คณิตศาสตร์ / ฟิสิกส์ / เคมี / ชีววิทยา / เทคโนโลยีชีวภาพ / วิทยาการคอมพิวเตอร์</p>
+        </div>
+      </div>
+    </div>
 
-<section>
-  <h2>💊 คณะเภสัชศาสตร์</h2>
-  <p class="description">
-    ศึกษาเกี่ยวกับยา การรักษาโรค และระบบสาธารณสุข เป็นหลักสูตรวิชาชีพ 6 ปี มีความต้องการสูงในตลาดงาน
-  </p>
-  <ul>
-    <li>เภสัชศาสตร์ – เรียนการผลิตยา จ่ายยา และดูแลผู้ป่วย</li>
-  </ul>
-</section>
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">⚙️ คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> ออกแบบ พัฒนาเครื่องจักร และเทคโนโลยีอุตสาหกรรม</p>
+          <p class="card-text"><b>สาขา:</b> วิศวกรรมเครื่องกล / ไฟฟ้า / เคมี / อุตสาหการ / วัสดุ / เมคคาทรอนิกส์</p>
+        </div>
+      </div>
+    </div>
 
-<section>
-  <h2>🎵 คณะดุริยางคศาสตร์</h2>
-  <p class="description">
-    สำหรับผู้ที่สนใจด้านดนตรีทั้งการแสดงและการผลิตผลงานดนตรีในระดับมืออาชีพ
-  </p>
-  <ul>
-    <li>ดนตรีสากล – การเล่นเครื่องดนตรีและร้องเพลง</li>
-    <li>ดนตรีแจ๊ส – เน้นแนวดนตรีแจ๊สและการอิมโพรไวส์</li>
-    <li>ดนตรีเชิงพาณิชย์ – การทำเพลง โปรดักชัน และธุรกิจดนตรี</li>
-  </ul>
-</section>
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">🌾 คณะสัตวศาสตร์และเทคโนโลยีการเกษตร</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> การเกษตรสมัยใหม่ การผลิตอาหาร และการเลี้ยงสัตว์</p>
+          <p class="card-text"><b>สาขา:</b> สัตวศาสตร์ / เทคโนโลยีการผลิตพืช / เทคโนโลยีอาหาร</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">💼 คณะวิทยาการจัดการ</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> บริหารธุรกิจ การตลาด และการบริการ</p>
+          <p class="card-text"><b>สาขา:</b> การตลาด / การจัดการ / การบัญชี / การท่องเที่ยว / โลจิสติกส์</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">💻 คณะเทคโนโลยีสารสนเทศและการสื่อสาร</h5>
+          <p class="card-text"><b>คำอธิบาย:</b> เทคโนโลยีดิจิทัล การเขียนโปรแกรม และสื่อออนไลน์</p>
+          <p class="card-text"><b>สาขา:</b> เทคโนโลยีสารสนเทศ / วิทยาการข้อมูล / มัลติมีเดีย / นิเทศศาสตร์ดิจิทัล</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <footer>
-  <p>© 2569 มหาวิทยาลัยศิลปากร (ตัวอย่างหน้าเว็บเพื่อการศึกษา)</p>
+  <div class="container">
+    <p>กลุ่ม Teletubbies | คณะและสาขาใน มหาวิทยาลัยศิลปากร วิทยาเขตพระราชวังสนามจันทร์</p>
+
+  </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
